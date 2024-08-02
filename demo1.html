@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.container {
+  padding: 20px;
+  overflow: hidden; /* Clear the floats */
+}
+
+.box {
+  width: 30%; /* Adjust the width as needed */
+  float: left;
+  margin: 10px 1%;
+  padding: 20px;
+  border: 1px solid #333;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8%;
+  background-color: rgba(39, 39, 157, 0.518);
+}
+
+.box1 {
+  background-color: #f4f4f4;
+}
+
+.box2 {
+  background-color: #eaeaea;
+}
+
+header {
+  background-color: rgba(0, 0, 255, 0.479);
+  color: white;
+  padding: 50px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+nav {
+  text-align: center;
+  background-color: rgba(39, 39, 157, 0.518);
+  padding: 14px;
+}
+
+nav a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 1px;
+  vertical-align: middle;
+}
+
+nav a img {
+  vertical-align: middle;
+  height: 40px; 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* li a:hover:not(.active) {
+  background-color: #111;
+} */
+
+.active {
+  background-color: #04AA6D;}
+</style>
+</head>
+<body>
+<header>
+  <div>Welcome User</div>
+  <img src="profile.png" alt="Profile" height="50">
+</header>
+<H4>Categories</h4>
+<div class="container">
+  <div class="box box1">
+    <h2>Verify</h2>
+    <img src="verify.png" alt="Profile" height="50">
+  </div>
+  <div class="box box2">
+    <h2>History</h2>
+    <img src="history.png" alt="Profile" height="50">
+   
+  </div>
+</div>
+<nav>
+    <ul>
+        <li>Home</li>
+        <li>Setting</li>
+        <li>AI chatbox</li>
+    </ul>
+</nav>
+
+</body>
+</html>
